@@ -1,0 +1,13 @@
+{
+  "generator-react-firebase": {
+    "promptValues": {
+      "githubUser": "f97",
+      "includeRedux": true,
+      "includeFirestore": true,
+      "otherFeatures": [],
+      "firebaseKey": "AIzaSyAEXHVKftjYDas0ZJt73N7vLhZTafJ4Jf0",
+      "firebaseProjectId": "link-xin-1599797609577",
+      "appId": "1:231787062438:web:5973d0ce64e59b05c2c067"
+    }
+  }
+}
