@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/f97/react-link.git"
+    "url": "git+https://github.com/f97/react-firebase-semantic.git"
   },
   "engines": {
     "node": ">12.18.0"
@@ -38,13 +38,14 @@
     "redux": "^4.0.4",
     "redux-auth-wrapper": "^3.0.0",
     "redux-firestore": "^0.13.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.2.1"
   },
   "devDependencies": {
     "@sentry/cli": "^1.55.1",
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-config-standard-react": "^9.2.0",

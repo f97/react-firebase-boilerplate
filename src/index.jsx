@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import { version } from '../package.json'
 import App from './App'
+import 'semantic-ui-css/semantic.min.css'
 import './index.css'
 
 // import * as serviceWorker from './serviceWorker'

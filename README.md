@@ -1,5 +1,4 @@
-# react-link
-
+# react-firebase-semantic
 
 [![License][license-image]][license-url]
 [![Code Style][code-style-image]][code-style-url]
@@ -46,16 +45,16 @@
 
 While developing, you will probably rely mostly on `yarn start`; however, there are additional scripts at your disposal:
 
-| `yarn <script>`     | Description                                                                                                             |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `start`             | Serves your app at `localhost:3000` with automatic refreshing and hot module replacement                                |
-| `start:dist`        | Builds the application to `./build` then serves at `localhost:3000` using firebase hosting emulator                     |
-| `start:emulate`     | Same as `start`, but pointed to database emulators (make sure to call `emulators` first to boot up emulators)           |
-| `build`             | Builds the application to `./build`                                                                                     |
-| `test`              | Runs unit tests with Jest. See [testing](#testing)                                                                      |
-| `test:watch`        | Runs `test` in watch mode to re-run tests when changed                                                                  |
-| `lint`              | [Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors                    |
-| `lint:fix`          | Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix) |
+| `yarn <script>` | Description                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `start`         | Serves your app at `localhost:3000` with automatic refreshing and hot module replacement                                |
+| `start:dist`    | Builds the application to `./build` then serves at `localhost:3000` using firebase hosting emulator                     |
+| `start:emulate` | Same as `start`, but pointed to database emulators (make sure to call `emulators` first to boot up emulators)           |
+| `build`         | Builds the application to `./build`                                                                                     |
+| `test`          | Runs unit tests with Jest. See [testing](#testing)                                                                      |
+| `test:watch`    | Runs `test` in watch mode to re-run tests when changed                                                                  |
+| `lint`          | [Lints](http://stackoverflow.com/questions/8503559/what-is-linting) the project for potential errors                    |
+| `lint:fix`      | Lints the project and [fixes all correctable errors](http://eslint.org/docs/user-guide/command-line-interface.html#fix) |
 
 [Husky](https://github.com/typicode/husky) is used to enable `prepush` hook capability. The `prepush` script currently runs `eslint`, which will keep you from pushing if there is any lint within your code. If you would like to disable this, remove the `prepush` script from the `package.json`.
 
@@ -156,6 +155,7 @@ export default {
 With this setting, the name of the file (called a "chunk") is defined as part of the code as well as a loading spinner showing while the bundle file is loading.
 
 More about how routing works is available in [the react-router-dom docs](https://reacttraining.com/react-router/web/guides/quick-start).
+
 ## Deployment
 
 Build code before deployment by running `yarn build`. There are multiple options below for types of deployment, if you are unsure, checkout the Firebase section.
@@ -182,8 +182,7 @@ Before starting make sure to install Firebase Command Line Tool: `npm i -g fireb
 
 [Cloud Functions runtime runs on `12`](https://cloud.google.com/functions/docs/concepts/nodejs-runtime), which is why that is what is used for the CI build version.
 
-
-[license-image]: https://img.shields.io/github/license/f97/react-link?style=flat-square
-[license-url]: https://github.com/f97/react-link/blob/master/LICENSE
+[license-image]: https://img.shields.io/github/license/f97/react-firebase-semantic?style=flat-square
+[license-url]: https://github.com/f97/react-firebase-semantic/blob/master/LICENSE
 [code-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [code-style-url]: http://standardjs.com/

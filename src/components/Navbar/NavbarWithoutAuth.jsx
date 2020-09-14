@@ -15,7 +15,7 @@ function NavbarWithoutAuth({ children, brandPath = '/' }) {
           component={Link}
           to={brandPath}
           data-test="brand">
-          React-link
+          react-firebase-semantic
         </div>
         <div />
         <div title="Toggle light/dark theme">
